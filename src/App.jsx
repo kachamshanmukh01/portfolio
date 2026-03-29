@@ -459,21 +459,14 @@ const projects = [
     num: "01",
     title: "Personal Portfolio Website",
     desc: "Built my own portfolio website using basic HTML, CSS, and a little JavaScript. It shows my work, skills, and contact details in a simple and clean layout.",
-    tech: ["HTML", "CSS", "JavaScript", "Figma"],
-    link: "#",
-  },
-  {
-    num: "02",
-    title: "Login Page UI",
-    desc: "Created a simple and user-friendly login and sign-up page design. Focused on clean form layout, good color contrast, and easy-to-read text for better usability.",
-    tech: ["UI Design", "Color Theory", "Typography"],
+    tech: ["HTML", "CSS", "JavaScript",],
     link: "#",
   },
 ];
 
 const skills = {
-  "Design Tools": ["Canva", "Adobe XD"],
-  "Frontend Basics": ["HTML", "CSS", "JavaScript", "React (Basics)"],
+  "Design Tools": ["Canva",],
+  "Frontend Basics": ["HTML", "CSS", "JavaScript",],
   "Other Skills": ["Git", "VS Code", "Wireframing", "Prototyping"],
 };
 
@@ -514,7 +507,7 @@ export default function Portfolio() {
     setIsHovering(false);
   };
 
-  const marqueeItems = ["UI Design", "UX Design", "Figma", "HTML", "CSS", "JavaScript", "Wireframing", "Prototyping", "Canva", "Adobe XD"];
+  const marqueeItems = ["UI Design", "UX Design", "HTML", "CSS", "JavaScript", "Wireframing", "Prototyping", "Canva",];
 
   return (
     <>
@@ -558,15 +551,15 @@ export default function Portfolio() {
             </div>
             <div className="hero-stats">
               <div className="stat">
-                <span className="stat-num">1+</span>
+                <span className="stat-num">4 months</span>
                 <span className="stat-label">Yr Learning</span>
               </div>
               <div className="stat">
-                <span className="stat-num">3+</span>
+                <span className="stat-num">1</span>
                 <span className="stat-label">Projects</span>
               </div>
               <div className="stat">
-                <span className="stat-num">5+</span>
+                <span className="stat-num">2</span>
                 <span className="stat-label">UI Designs</span>
               </div>
             </div>
@@ -600,7 +593,7 @@ export default function Portfolio() {
         <div className="about-grid">
           <div className="about-text fade-in">
             <p>Hi, I'm <strong>Shanmukh Kacham</strong>, a beginner UI/UX designer who is passionate about creating simple and beautiful designs. I believe good design should be easy to understand and nice to look at.</p>
-            <p>I started learning design by exploring <strong>Figma</strong> and making basic wireframes and app screens. I enjoy thinking about how users interact with a product and how to make that experience as smooth as possible.</p>
+            <p>I started learning design by exploring . And making basic wireframes and app screens. I enjoy thinking about how users interact with a product and how to make that experience as smooth as possible.</p>
             <p>I also know the basics of <strong>HTML, CSS, and JavaScript</strong>, which helps me understand how my designs are built on the web. I'm always learning and improving my skills every day.</p>
             <p>In my free time, I like sketching design ideas, watching UI/UX tutorials, and trying to redesign apps I use daily for practice.</p>
           </div>
